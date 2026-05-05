@@ -1,0 +1,986 @@
+; ============================================================================
+; STALKER: Shadow of Chernobyl — Realistic Graphics Mod
+; Weather configuration: Default (Clear/Partly Cloudy)
+; Realistic lighting cycle with smooth transitions
+; ============================================================================
+
+[sect_default_weather]
+00:00 = default_00
+00:15 = default_00
+00:30 = default_00
+01:00 = default_01
+01:15 = default_01
+01:30 = default_01
+02:00 = default_02
+02:15 = default_02
+02:30 = default_02
+03:00 = default_03
+03:15 = default_03
+03:30 = default_03
+04:00 = default_04
+04:15 = default_04
+04:30 = default_04_30
+05:00 = default_05
+05:15 = default_05
+05:30 = default_05_30
+06:00 = default_06
+06:15 = default_06
+06:30 = default_06_30
+07:00 = default_07
+07:15 = default_07
+07:30 = default_07
+08:00 = default_08
+08:15 = default_08
+08:30 = default_08
+09:00 = default_09
+10:00 = default_10
+11:00 = default_11
+12:00 = default_12
+13:00 = default_13
+14:00 = default_14
+15:00 = default_15
+16:00 = default_16
+17:00 = default_17
+17:30 = default_17_30
+18:00 = default_18
+18:30 = default_18_30
+19:00 = default_19
+19:30 = default_19_30
+20:00 = default_20
+20:30 = default_20_30
+21:00 = default_21
+21:30 = default_21
+22:00 = default_22
+22:30 = default_22
+23:00 = default_23
+23:30 = default_23
+
+; ============================================================================
+; MIDNIGHT — Deep night, starlit sky, minimal ambient
+; ============================================================================
+[default_00]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.35, 0.35, 0.45
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.08, 0.08, 0.12, 0.3, 1.0
+far_plane         = 350
+fog_distance      = 300
+fog_color         = 0.003, 0.004, 0.008
+fog_density       = 0.9
+rain_density      = 0.0
+rain_color        = 0.35, 0.37, 0.45
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.002, 0.003, 0.006
+hemisphere_color  = 0.020, 0.025, 0.040, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -45
+sun_longitude     = 0
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 01:00 — Deep night continues
+; ============================================================================
+[default_01]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.30, 0.30, 0.42
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.07, 0.07, 0.11, 0.25, 1.0
+far_plane         = 350
+fog_distance      = 300
+fog_color         = 0.003, 0.003, 0.007
+fog_density       = 0.9
+rain_density      = 0.0
+rain_color        = 0.30, 0.32, 0.40
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.002, 0.003, 0.005
+hemisphere_color  = 0.018, 0.022, 0.038, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -45
+sun_longitude     = 15
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 02:00 — Deepest night, coldest tones
+; ============================================================================
+[default_02]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.28, 0.28, 0.40
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.06, 0.06, 0.10, 0.22, 1.0
+far_plane         = 330
+fog_distance      = 280
+fog_color         = 0.002, 0.003, 0.006
+fog_density       = 0.92
+rain_density      = 0.0
+rain_color        = 0.28, 0.30, 0.38
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.001, 0.002, 0.004
+hemisphere_color  = 0.015, 0.020, 0.035, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -50
+sun_longitude     = 30
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 03:00 — Late night, first hint of pre-dawn on horizon
+; ============================================================================
+[default_03]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.28, 0.28, 0.38
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.06, 0.06, 0.10, 0.20, 1.0
+far_plane         = 340
+fog_distance      = 290
+fog_color         = 0.003, 0.003, 0.007
+fog_density       = 0.88
+rain_density      = 0.0
+rain_color        = 0.28, 0.30, 0.38
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.002, 0.003, 0.005
+hemisphere_color  = 0.018, 0.022, 0.036, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -40
+sun_longitude     = 45
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 04:00 — Pre-dawn, sky begins to lighten
+; ============================================================================
+[default_04]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.32, 0.30, 0.38
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.10, 0.08, 0.12, 0.30, 1.0
+far_plane         = 380
+fog_distance      = 320
+fog_color         = 0.008, 0.006, 0.012
+fog_density       = 0.85
+rain_density      = 0.0
+rain_color        = 0.32, 0.30, 0.38
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.005, 0.004, 0.008
+hemisphere_color  = 0.025, 0.025, 0.040, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -25
+sun_longitude     = 60
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 04:30 — Dawn begins, warm orange creeping in
+; ============================================================================
+[default_04_30]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.40, 0.35, 0.38
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.20, 0.12, 0.14, 0.40, 1.0
+far_plane         = 400
+fog_distance      = 340
+fog_color         = 0.020, 0.012, 0.015
+fog_density       = 0.82
+rain_density      = 0.0
+rain_color        = 0.38, 0.34, 0.36
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.5
+wind_direction    = 0.0
+ambient_color     = 0.012, 0.008, 0.010
+hemisphere_color  = 0.035, 0.030, 0.040, 1.0
+sun_color         = 0.02, 0.01, 0.005
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -10
+sun_longitude     = 68
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 05:00 — Civil twilight, rich warm colors
+; ============================================================================
+[default_05]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.55, 0.42, 0.38
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.40, 0.25, 0.20, 0.55, 1.0
+far_plane         = 450
+fog_distance      = 380
+fog_color         = 0.060, 0.035, 0.030
+fog_density       = 0.75
+rain_density      = 0.0
+rain_color        = 0.50, 0.42, 0.38
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 1.0
+wind_direction    = 0.0
+ambient_color     = 0.030, 0.020, 0.018
+hemisphere_color  = 0.060, 0.045, 0.042, 1.0
+sun_color         = 0.15, 0.06, 0.02
+sun_shafts_intensity = 0.15
+sun               = gradient\sun
+sun_altitude      = -2
+sun_longitude     = 75
+lmap_color        = 1.0, 0.92, 0.85
+
+; ============================================================================
+; 05:30 — Sunrise, strong warm glow
+; ============================================================================
+[default_05_30]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.65, 0.50, 0.40
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.55, 0.35, 0.25, 0.60, 1.0
+far_plane         = 500
+fog_distance      = 420
+fog_color         = 0.12, 0.065, 0.045
+fog_density       = 0.65
+rain_density      = 0.0
+rain_color        = 0.60, 0.50, 0.42
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 1.5
+wind_direction    = 0.0
+ambient_color     = 0.050, 0.035, 0.028
+hemisphere_color  = 0.085, 0.065, 0.055, 1.0
+sun_color         = 0.50, 0.22, 0.08
+sun_shafts_intensity = 0.35
+sun               = gradient\sun
+sun_altitude      = 3
+sun_longitude     = 80
+lmap_color        = 1.0, 0.88, 0.72
+
+; ============================================================================
+; 06:00 — Early morning, golden hour
+; ============================================================================
+[default_06]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.72, 0.60, 0.48
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.65, 0.45, 0.32, 0.55, 1.0
+far_plane         = 550
+fog_distance      = 460
+fog_color         = 0.18, 0.10, 0.065
+fog_density       = 0.55
+rain_density      = 0.0
+rain_color        = 0.68, 0.58, 0.48
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 2.0
+wind_direction    = 0.0
+ambient_color     = 0.065, 0.050, 0.040
+hemisphere_color  = 0.10, 0.085, 0.070, 1.0
+sun_color         = 0.75, 0.42, 0.18
+sun_shafts_intensity = 0.55
+sun               = gradient\sun
+sun_altitude      = 8
+sun_longitude     = 85
+lmap_color        = 1.0, 0.88, 0.72
+
+; ============================================================================
+; 06:30 — Morning, warm light softening
+; ============================================================================
+[default_06_30]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.78, 0.68, 0.55
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.70, 0.55, 0.40, 0.50, 1.0
+far_plane         = 600
+fog_distance      = 500
+fog_color         = 0.22, 0.14, 0.09
+fog_density       = 0.45
+rain_density      = 0.0
+rain_color        = 0.72, 0.64, 0.55
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 2.5
+wind_direction    = 0.0
+ambient_color     = 0.080, 0.065, 0.052
+hemisphere_color  = 0.12, 0.10, 0.085, 1.0
+sun_color         = 0.85, 0.55, 0.30
+sun_shafts_intensity = 0.65
+sun               = gradient\sun
+sun_altitude      = 15
+sun_longitude     = 90
+lmap_color        = 1.0, 0.90, 0.78
+
+; ============================================================================
+; 07:00 — Morning, transitioning to neutral daylight
+; ============================================================================
+[default_07]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.82, 0.78, 0.70
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.72, 0.65, 0.55, 0.45, 1.0
+far_plane         = 650
+fog_distance      = 550
+fog_color         = 0.25, 0.20, 0.15
+fog_density       = 0.35
+rain_density      = 0.0
+rain_color        = 0.78, 0.72, 0.65
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 3.0
+wind_direction    = 0.0
+ambient_color     = 0.10, 0.085, 0.070
+hemisphere_color  = 0.14, 0.13, 0.11, 1.0
+sun_color         = 0.90, 0.70, 0.45
+sun_shafts_intensity = 0.70
+sun               = gradient\sun
+sun_altitude      = 22
+sun_longitude     = 95
+lmap_color        = 1.0, 0.92, 0.82
+
+; ============================================================================
+; 08:00 — Mid-morning, bright and clear
+; ============================================================================
+[default_08]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.88, 0.85, 0.80
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.78, 0.75, 0.68, 0.42, 1.0
+far_plane         = 700
+fog_distance      = 600
+fog_color         = 0.28, 0.25, 0.20
+fog_density       = 0.28
+rain_density      = 0.0
+rain_color        = 0.82, 0.78, 0.72
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 3.5
+wind_direction    = 0.0
+ambient_color     = 0.12, 0.11, 0.095
+hemisphere_color  = 0.16, 0.155, 0.14, 1.0
+sun_color         = 0.95, 0.82, 0.60
+sun_shafts_intensity = 0.75
+sun               = gradient\sun
+sun_altitude      = 32
+sun_longitude     = 100
+lmap_color        = 1.0, 0.95, 0.88
+
+; ============================================================================
+; 09:00 — Late morning
+; ============================================================================
+[default_09]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.92, 0.90, 0.85
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.82, 0.80, 0.75, 0.38, 1.0
+far_plane         = 750
+fog_distance      = 650
+fog_color         = 0.30, 0.28, 0.24
+fog_density       = 0.22
+rain_density      = 0.0
+rain_color        = 0.85, 0.82, 0.78
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 4.0
+wind_direction    = 0.0
+ambient_color     = 0.14, 0.13, 0.12
+hemisphere_color  = 0.18, 0.175, 0.16, 1.0
+sun_color         = 1.0, 0.90, 0.72
+sun_shafts_intensity = 0.80
+sun               = gradient\sun
+sun_altitude      = 42
+sun_longitude     = 110
+lmap_color        = 1.0, 0.96, 0.90
+
+; ============================================================================
+; 10:00 — Late morning, approaching midday
+; ============================================================================
+[default_10]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.95, 0.93, 0.88
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.85, 0.83, 0.78, 0.35, 1.0
+far_plane         = 800
+fog_distance      = 700
+fog_color         = 0.32, 0.30, 0.27
+fog_density       = 0.18
+rain_density      = 0.0
+rain_color        = 0.88, 0.85, 0.80
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 4.5
+wind_direction    = 0.0
+ambient_color     = 0.15, 0.145, 0.13
+hemisphere_color  = 0.19, 0.185, 0.17, 1.0
+sun_color         = 1.0, 0.95, 0.80
+sun_shafts_intensity = 0.85
+sun               = gradient\sun
+sun_altitude      = 52
+sun_longitude     = 120
+lmap_color        = 1.0, 0.97, 0.92
+
+; ============================================================================
+; 11:00 — Near-noon
+; ============================================================================
+[default_11]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.96, 0.95, 0.90
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.88, 0.86, 0.80, 0.32, 1.0
+far_plane         = 850
+fog_distance      = 750
+fog_color         = 0.34, 0.32, 0.29
+fog_density       = 0.15
+rain_density      = 0.0
+rain_color        = 0.90, 0.88, 0.82
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 5.0
+wind_direction    = 0.0
+ambient_color     = 0.16, 0.155, 0.14
+hemisphere_color  = 0.20, 0.195, 0.18, 1.0
+sun_color         = 1.0, 0.97, 0.85
+sun_shafts_intensity = 0.85
+sun               = gradient\sun
+sun_altitude      = 60
+sun_longitude     = 135
+lmap_color        = 1.0, 0.98, 0.93
+
+; ============================================================================
+; 12:00 — High noon, brightest point
+; ============================================================================
+[default_12]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.97, 0.96, 0.92
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.90, 0.88, 0.82, 0.30, 1.0
+far_plane         = 900
+fog_distance      = 800
+fog_color         = 0.35, 0.33, 0.30
+fog_density       = 0.12
+rain_density      = 0.0
+rain_color        = 0.92, 0.90, 0.85
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 5.0
+wind_direction    = 0.0
+ambient_color     = 0.17, 0.165, 0.15
+hemisphere_color  = 0.21, 0.205, 0.19, 1.0
+sun_color         = 1.0, 0.98, 0.88
+sun_shafts_intensity = 0.85
+sun               = gradient\sun
+sun_altitude      = 65
+sun_longitude     = 150
+lmap_color        = 1.0, 0.98, 0.94
+
+; ============================================================================
+; 13:00 — Early afternoon
+; ============================================================================
+[default_13]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.96, 0.95, 0.90
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.88, 0.86, 0.80, 0.32, 1.0
+far_plane         = 880
+fog_distance      = 780
+fog_color         = 0.34, 0.32, 0.29
+fog_density       = 0.14
+rain_density      = 0.0
+rain_color        = 0.90, 0.88, 0.82
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 5.0
+wind_direction    = 0.0
+ambient_color     = 0.16, 0.155, 0.14
+hemisphere_color  = 0.20, 0.195, 0.18, 1.0
+sun_color         = 1.0, 0.96, 0.84
+sun_shafts_intensity = 0.85
+sun               = gradient\sun
+sun_altitude      = 60
+sun_longitude     = 165
+lmap_color        = 1.0, 0.97, 0.92
+
+; ============================================================================
+; 14:00 — Mid-afternoon
+; ============================================================================
+[default_14]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.95, 0.93, 0.88
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.85, 0.83, 0.78, 0.35, 1.0
+far_plane         = 850
+fog_distance      = 750
+fog_color         = 0.32, 0.30, 0.27
+fog_density       = 0.16
+rain_density      = 0.0
+rain_color        = 0.88, 0.85, 0.80
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 4.5
+wind_direction    = 0.0
+ambient_color     = 0.15, 0.145, 0.13
+hemisphere_color  = 0.19, 0.185, 0.17, 1.0
+sun_color         = 1.0, 0.93, 0.78
+sun_shafts_intensity = 0.82
+sun               = gradient\sun
+sun_altitude      = 52
+sun_longitude     = 180
+lmap_color        = 1.0, 0.96, 0.90
+
+; ============================================================================
+; 15:00 — Late afternoon, warmth increasing
+; ============================================================================
+[default_15]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.93, 0.90, 0.82
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.82, 0.78, 0.68, 0.38, 1.0
+far_plane         = 800
+fog_distance      = 700
+fog_color         = 0.30, 0.27, 0.22
+fog_density       = 0.20
+rain_density      = 0.0
+rain_color        = 0.85, 0.82, 0.75
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 4.0
+wind_direction    = 0.0
+ambient_color     = 0.14, 0.13, 0.11
+hemisphere_color  = 0.18, 0.17, 0.15, 1.0
+sun_color         = 1.0, 0.88, 0.65
+sun_shafts_intensity = 0.80
+sun               = gradient\sun
+sun_altitude      = 42
+sun_longitude     = 195
+lmap_color        = 1.0, 0.94, 0.85
+
+; ============================================================================
+; 16:00 — Approaching golden hour
+; ============================================================================
+[default_16]
+flares            = flares
+sky_texture       = sky\sky_9_cube
+sky_rotation      = 0
+sky_color         = 0.90, 0.84, 0.72
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.78, 0.70, 0.55, 0.42, 1.0
+far_plane         = 750
+fog_distance      = 650
+fog_color         = 0.28, 0.24, 0.18
+fog_density       = 0.25
+rain_density      = 0.0
+rain_color        = 0.82, 0.78, 0.68
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 3.5
+wind_direction    = 0.0
+ambient_color     = 0.12, 0.11, 0.090
+hemisphere_color  = 0.16, 0.15, 0.13, 1.0
+sun_color         = 0.98, 0.80, 0.52
+sun_shafts_intensity = 0.78
+sun               = gradient\sun
+sun_altitude      = 32
+sun_longitude     = 210
+lmap_color        = 1.0, 0.92, 0.78
+
+; ============================================================================
+; 17:00 — Golden hour
+; ============================================================================
+[default_17]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.85, 0.75, 0.58
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.75, 0.60, 0.42, 0.48, 1.0
+far_plane         = 700
+fog_distance      = 600
+fog_color         = 0.25, 0.18, 0.12
+fog_density       = 0.30
+rain_density      = 0.0
+rain_color        = 0.78, 0.70, 0.55
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 3.0
+wind_direction    = 0.0
+ambient_color     = 0.10, 0.085, 0.065
+hemisphere_color  = 0.14, 0.12, 0.10, 1.0
+sun_color         = 0.95, 0.68, 0.35
+sun_shafts_intensity = 0.75
+sun               = gradient\sun
+sun_altitude      = 22
+sun_longitude     = 225
+lmap_color        = 1.0, 0.88, 0.70
+
+; ============================================================================
+; 17:30 — Late golden hour, intense warm tones
+; ============================================================================
+[default_17_30]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.80, 0.65, 0.48
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.72, 0.52, 0.35, 0.52, 1.0
+far_plane         = 650
+fog_distance      = 550
+fog_color         = 0.22, 0.14, 0.08
+fog_density       = 0.35
+rain_density      = 0.0
+rain_color        = 0.74, 0.62, 0.48
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 2.5
+wind_direction    = 0.0
+ambient_color     = 0.085, 0.068, 0.050
+hemisphere_color  = 0.12, 0.10, 0.082, 1.0
+sun_color         = 0.90, 0.55, 0.22
+sun_shafts_intensity = 0.70
+sun               = gradient\sun
+sun_altitude      = 15
+sun_longitude     = 232
+lmap_color        = 1.0, 0.85, 0.65
+
+; ============================================================================
+; 18:00 — Sunset, dramatic sky
+; ============================================================================
+[default_18]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.72, 0.52, 0.40
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.65, 0.42, 0.28, 0.58, 1.0
+far_plane         = 600
+fog_distance      = 500
+fog_color         = 0.18, 0.10, 0.06
+fog_density       = 0.42
+rain_density      = 0.0
+rain_color        = 0.68, 0.52, 0.40
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 2.0
+wind_direction    = 0.0
+ambient_color     = 0.065, 0.048, 0.035
+hemisphere_color  = 0.10, 0.078, 0.062, 1.0
+sun_color         = 0.80, 0.38, 0.12
+sun_shafts_intensity = 0.55
+sun               = gradient\sun
+sun_altitude      = 8
+sun_longitude     = 240
+lmap_color        = 1.0, 0.82, 0.60
+
+; ============================================================================
+; 18:30 — Late sunset, deep orange/red
+; ============================================================================
+[default_18_30]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.62, 0.42, 0.35
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.55, 0.32, 0.22, 0.55, 1.0
+far_plane         = 550
+fog_distance      = 450
+fog_color         = 0.12, 0.065, 0.040
+fog_density       = 0.50
+rain_density      = 0.0
+rain_color        = 0.58, 0.42, 0.35
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 1.5
+wind_direction    = 0.0
+ambient_color     = 0.045, 0.032, 0.025
+hemisphere_color  = 0.078, 0.058, 0.048, 1.0
+sun_color         = 0.55, 0.22, 0.06
+sun_shafts_intensity = 0.35
+sun               = gradient\sun
+sun_altitude      = 2
+sun_longitude     = 248
+lmap_color        = 1.0, 0.80, 0.58
+
+; ============================================================================
+; 19:00 — Civil twilight, sun below horizon
+; ============================================================================
+[default_19]
+flares            = flares
+sky_texture       = sky\sky_13_cube
+sky_rotation      = 0
+sky_color         = 0.50, 0.38, 0.35
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.40, 0.25, 0.20, 0.48, 1.0
+far_plane         = 500
+fog_distance      = 420
+fog_color         = 0.065, 0.038, 0.030
+fog_density       = 0.58
+rain_density      = 0.0
+rain_color        = 0.48, 0.38, 0.35
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 1.0
+wind_direction    = 0.0
+ambient_color     = 0.028, 0.020, 0.018
+hemisphere_color  = 0.055, 0.042, 0.038, 1.0
+sun_color         = 0.15, 0.06, 0.02
+sun_shafts_intensity = 0.10
+sun               = gradient\sun
+sun_altitude      = -5
+sun_longitude     = 255
+lmap_color        = 1.0, 0.85, 0.72
+
+; ============================================================================
+; 19:30 — Late twilight
+; ============================================================================
+[default_19_30]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.42, 0.35, 0.38
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.28, 0.20, 0.18, 0.42, 1.0
+far_plane         = 450
+fog_distance      = 380
+fog_color         = 0.035, 0.025, 0.028
+fog_density       = 0.65
+rain_density      = 0.0
+rain_color        = 0.40, 0.35, 0.38
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.5
+wind_direction    = 0.0
+ambient_color     = 0.018, 0.014, 0.015
+hemisphere_color  = 0.040, 0.034, 0.036, 1.0
+sun_color         = 0.02, 0.01, 0.005
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -15
+sun_longitude     = 262
+lmap_color        = 1.0, 0.92, 0.85
+
+; ============================================================================
+; 20:00 — Dusk, transitioning to night
+; ============================================================================
+[default_20]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.38, 0.34, 0.40
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.18, 0.15, 0.18, 0.38, 1.0
+far_plane         = 420
+fog_distance      = 360
+fog_color         = 0.018, 0.015, 0.020
+fog_density       = 0.72
+rain_density      = 0.0
+rain_color        = 0.35, 0.32, 0.38
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.5
+wind_direction    = 0.0
+ambient_color     = 0.010, 0.008, 0.012
+hemisphere_color  = 0.032, 0.028, 0.035, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -25
+sun_longitude     = 270
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 20:30 — Early night
+; ============================================================================
+[default_20_30]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.36, 0.34, 0.42
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.14, 0.12, 0.16, 0.35, 1.0
+far_plane         = 400
+fog_distance      = 340
+fog_color         = 0.012, 0.010, 0.016
+fog_density       = 0.78
+rain_density      = 0.0
+rain_color        = 0.34, 0.32, 0.40
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.006, 0.005, 0.009
+hemisphere_color  = 0.028, 0.025, 0.035, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -35
+sun_longitude     = 278
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 21:00 — Night established
+; ============================================================================
+[default_21]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.35, 0.34, 0.44
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.10, 0.10, 0.14, 0.32, 1.0
+far_plane         = 380
+fog_distance      = 320
+fog_color         = 0.006, 0.006, 0.012
+fog_density       = 0.82
+rain_density      = 0.0
+rain_color        = 0.32, 0.32, 0.42
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.004, 0.004, 0.007
+hemisphere_color  = 0.024, 0.024, 0.038, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -42
+sun_longitude     = 290
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 22:00 — Full night
+; ============================================================================
+[default_22]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.34, 0.34, 0.44
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.09, 0.09, 0.13, 0.30, 1.0
+far_plane         = 360
+fog_distance      = 310
+fog_color         = 0.004, 0.005, 0.010
+fog_density       = 0.85
+rain_density      = 0.0
+rain_color        = 0.32, 0.34, 0.42
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.003, 0.004, 0.006
+hemisphere_color  = 0.022, 0.024, 0.038, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -45
+sun_longitude     = 310
+lmap_color        = 1.0, 1.0, 1.0
+
+; ============================================================================
+; 23:00 — Late night
+; ============================================================================
+[default_23]
+flares            = flares
+sky_texture       = sky\sky_5_cube
+sky_rotation      = 0
+sky_color         = 0.35, 0.35, 0.45
+clouds_texture    = sky\sky_oblaka
+clouds_color      = 0.08, 0.08, 0.12, 0.28, 1.0
+far_plane         = 350
+fog_distance      = 300
+fog_color         = 0.003, 0.004, 0.008
+fog_density       = 0.88
+rain_density      = 0.0
+rain_color        = 0.34, 0.36, 0.44
+thunderbolt       =
+bolt_period       = 0.0
+bolt_duration     = 0.0
+wind_velocity     = 0.0
+wind_direction    = 0.0
+ambient_color     = 0.002, 0.003, 0.006
+hemisphere_color  = 0.020, 0.024, 0.040, 1.0
+sun_color         = 0.0, 0.0, 0.0
+sun_shafts_intensity = 0.0
+sun               = gradient\sun
+sun_altitude      = -45
+sun_longitude     = 340
+lmap_color        = 1.0, 1.0, 1.0
