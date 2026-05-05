@@ -1,0 +1,18 @@
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+*.obj
+*.exe
+*.dll
+
+# User-specific files
+user.ltx
